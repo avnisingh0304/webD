@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* Section Styling */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/waves6.jpg);
+    background-size: cover;
+    color: white;
+}
+.project-section {
+    padding: 60px 40px;
+    background-color: #fdfdfd;
+    width: 100%;
+    text-align: center;
+}
+/* Scrollable container */
+.projects-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #eee;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+/* Scrollbar styling for WebKit browsers */
+.projects-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.projects-scroll::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 10px;
+}
+.projects-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.projects-scroll::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+/* Card Style */
+.project-card {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+    background-color: #055b6c;
+    color: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 25px rgba(0, 0, 0, 0.2);
+}
+.project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+.project-card p {
+    line-height: 1.4;
+    font-size: 1.3rem;
+    color: #eaeaea;
+}
+

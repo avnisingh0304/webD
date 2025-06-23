@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/waves.jpg'); /* path to your image */
+    background-size: cover;     /* Cover the whole area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.about {
+    text-align: center;
+    padding: 80px;
+}
+.about h2 {
+    font-size: 40px;
+    color:#054b6c;
+}
+.para-1 {
+    font-size:x-large;
+    text-align: justify;
+    padding: 20px 30px;
+    background-color: #054b6c;   /* Light blue background */
+    padding: 20px 30px;
+    border-radius: 20px;         /* Curve the corners */
+    font-size: 1.1em;
+    color: #f0edee;
+    max-width: 700px;
+    margin: 20px auto;           /* Center horizontally */
+    text-align: center;
+}
+.para-2 {
+    background-color: #037baf;   /* Light blue background */
+    padding: 20px 30px;
+    border-radius: 20px;         /* Curve the corners */
+    font-size: 1.1em;
+    color: #ffffff;
+    max-width: 700px;
+    margin: 20px auto;           /* Center horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    text-align: center;
+}
+
+.para-3 {
+    background-color: #054b6c;   /* Light blue background */
+    padding: 20px 30px;
+    border-radius: 20px;         /* Curve the corners */
+    font-size: 1.1em;
+    color: #ffffff;
+    max-width: 700px;
+    margin: 20px auto;           /* Center horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
